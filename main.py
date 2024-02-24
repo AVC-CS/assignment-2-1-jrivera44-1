@@ -1,18 +1,24 @@
 def main():
     """
-    num1 = int(input('Enter the first number: '))
-    num2 = int(input('Enter the second number: '))
-    
     ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
+    mnum = int(input('Enter the number of male students: '))
+    fnum = int(input('Enter the number of female students: '))
+    
+    
+    total = mnum + fnum
+    m_perc = mnum / total * 100
+    f_perc = fnum / total * 100
+    print(f'Percentage of male students: {m_perc:.2f}')
+    print(f'Percentage of female students: {f_perc:.2f}')
+    mnum = int(input('Enter the number of male students: '))
+    fnum = int(input('Enter the number of female students: '))
+    
+    
+    total = mnum + fnum
+    m_perc = mnum / total * 100
+    f_perc = fnum / total * 100
     ##################################################
     """
-    num1 = in(input('Enter value one.'))
-    num2 = in(input('Enter value two.'))
-
-    total = num1 + num2
-    print (f'num1, num2')
 
     """
     ########################################
