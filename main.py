@@ -15,7 +15,7 @@ def main():
     print(f'Percentage of male students: {m_perc:.2f}')
     print(f'Percentage of female students: {f_perc:.2f}')
     
-     """
+    """
     ########################################
     # Do not delete the return statement
     ########################################
